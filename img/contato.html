@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contato</title>
+	<link rel="stylesheet" href="stylo.css">
+</head>
+<body>
+	<header>
+		<section class="topo">
+			<img src="./img/logo.jpg" alt="Logo GlassService" class="logo">
+			<nav class="nav">
+				<ul clas="menu">
+					<li>
+						<a href="index.html" class="botao">Home</a>
+					</li>
+					<li>
+						<a href="contato.html" class="botao botao-destaque">Contato</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+	</header>
+	<main>
+		<section class="formulario">
+			<h1>Formulário de Contato</h1>
+			<p>Preencha os dados abaixo e envie sua mensagem de contato.</p>
+			<fieldset>
+ 				<legend>
+ 					<h3>Dados de Contato</h3>
+ 				</legend>
+ 				<form id="formulario_dados" action="#" method="POST">
+ 					<label id="formulario_nome">
+ 						Nome:
+ 					</label>
+ 					<input type="text" name="Nome:" id="formulario_nome" required="required">
+ 					<label id="formulario_data">
+ 						Data de Nascimento:
+ 					</label>
+ 					<input type="date" name="Data de Nascimento" id="formulario_data" required="required" placeholder="dd/mm/aaaa">
+ 					<label id="formulario_sexo">
+ 						Sexo:
+ 					</label>
+					 <div class="selecao">
+ 					<input type="radio" name="Sexo" id="formulario_sexo" value="masculino" class="item"> Masculino
+ 					<input type="radio" name="Sexo" id="formulario_sexo" value="feminino" class="item"> Feminino
+					 </div>
+					<label id="formulario_endereço">
+ 						Endereço:
+ 					</label>
+ 					<input type="text" name="Endereço:" id="formulario_endereço" required="required">
+ 					<label id="formulario_estado">
+ 						Estado:
+ 					</label>
+ 					<select id="formulario_estado" required="required">
+ 						<option value="">-Selecione-</option>
+ 						<option value="1">SC</option>
+ 						<option value="2">MG</option>
+ 					</select>
+ 					<label id="formulario_cidade">
+ 						Cidade:
+ 					</label>
+ 					<select id="formulario_cidade" required="required">
+ 						<option value="">-Selecione-</option>
+ 						<option value="1">Florionópolis</option>
+ 						<option value="2">São José</option>
+ 					</select>
+ 					<label id="formulario_celular">
+ 						Celular:
+ 					</label>
+ 					<input type="fone" id="formulario_celular" required="required" placeholder="(00)00000-0000">
+ 					<label id="formulario_email">
+ 						Email:
+ 					</label>
+ 					<input type="email" id="formulario_email" required="required" placeholder="xxxxxx@xxxxxxx.com">
+ 					<label id="formulario_interesse">
+ 						Áreas de Interesse:
+ 					</label>
+					<div class="selecao">
+ 						<input type="checkbox" id="formulario_interesse" name="html" class="item">HTML
+ 						<input type="checkbox" id="formulario_interesse" name="css" class="item">CSS
+ 						<input type="checkbox" id="formulario_interesse" name="javascript" class="item">JavaScript
+					</div>
+ 					<label id="formulario_mensagem">
+ 						Mensagem:
+ 					</label>
+ 					<textarea id="formulario_mensagem" rows="4"></textarea>
+ 					<input type="submit" name="enviar" value="Enviar" class="botao-destaque enviar">
+ 				</form>
+
+			</fieldset>
+		</section>
+	</main>
+	<footer>
+		<section class="rodape">
+			<ul>
+				<li>
+					<a href="https://www.instagram.com/"><img src="./img/logo_insta.png" alt="Instagran"></a>
+				</li>
+				<li>
+					<a href="https://www.twitter.com/"><img src="./img/logo_twitter.png" alt="Twitter"></a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/"><img src="./img/logo_face.png" alt="Facebook"></a>
+				</li>
+			</ul>
+			
+		</section>
+	</footer>
+</body>
+</html>

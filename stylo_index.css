@@ -1,0 +1,25 @@
+.subtitulo{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 200%;
+    color: #39c; 
+}
+
+.sobre p{
+    margin: 10px 0 40px;
+    color: #39c; 
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sobre{
+    width: 480px;
+}
+
+.imagem img{
+    width: 480px;
+}

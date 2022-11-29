@@ -1,0 +1,62 @@
+@import url("reset.css");
+@import "stylo_contato.css";
+@import url("stylo_index.css");
+
+body {
+    width: 1024px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+   }
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10%;
+    border-radius: 10px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+
+   header nav ul li a {
+    margin: 0px 15px;
+    color: #39c;
+   }
+
+   .botao {
+        padding: 5px 30px;
+        border-radius: 10px;
+   }
+
+   .botao-destaque {
+    padding: 5px 30px;
+    border-radius: 10px;
+    background: #30C5CC;
+    color: #fff;
+   }
+
+   h1{
+    font-size: 70px;
+    line-height: 90%;
+    font-weight: 400;
+    color: #336; 
+}
+.rodape ul {
+    display: flex;
+    align-items: center;
+}
+
+.rodape ul li {
+    margin-right: 20px;
+}
+
+.rodape ul li a img{
+    width: 30px;
+}
