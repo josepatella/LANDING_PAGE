@@ -37,6 +37,13 @@ form {
     flex-direction: column;
 }
 
+#formulario_estado, #formulario_cidade {
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
 .selecao{
     display: flex;
     flex-direction: row;
